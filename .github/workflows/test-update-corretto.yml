@@ -1,0 +1,21 @@
+name: Test Corretto Update Script
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/scripts/update_corretto.py'
+  pull_request:
+    paths:
+      - '.github/scripts/update_corretto.py'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6.0.2
+
+      - name: Run unit tests
+        run: python3 -m pytest .github/scripts/test_update_corretto.py -v
