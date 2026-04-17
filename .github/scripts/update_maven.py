@@ -7,7 +7,8 @@ Output: maven/maven.json
 
 Tag format: maven-3.9.14 -> version 3.9.14, major 3
 CDN pattern:
-  https://dlcdn.apache.org/maven/maven-{major}/{version}/source/apache-maven-{version}-src.zip
+  https://dlcdn.apache.org/maven/maven-{major}/{version}/binaries/apache-maven-{version}-bin.zip
+  
 """
 
 import json
@@ -18,8 +19,7 @@ import urllib.request
 EOL_API = "https://endoflife.date/api/v1/products/maven"
 OUTPUT = pathlib.Path("maven/maven.json")
 
-CDN_BASE = "https://dlcdn.apache.org/maven/maven-{major}/{version}/source/apache-maven-{version}-src.zip"
-
+CDN_BASE = "https://dlcdn.apache.org/maven/maven-{major}/{version}/binaries/apache-maven-{version}-bin.zip"
 
 def fetch(url: str) -> str:
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
