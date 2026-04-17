@@ -1,0 +1,30 @@
+[
+  {
+    "version": "3.9.14",
+    "url": "https://dlcdn.apache.org/maven/maven-3/3.9.14/binaries/apache-maven-3.9.14-bin.zip",
+    "checksums": {
+      "SHA-512": "4122c5e7a8794260539dd8fcd78480549511babff2f85e2b1258c8d4cf33c50af90f65d323f43c88d4959f35a8f37ced3eca802983caa6eb7cc81b16af936ab0"
+    }
+  },
+  {
+    "version": "3.8.9",
+    "url": "https://dlcdn.apache.org/maven/maven-3/3.8.9/binaries/apache-maven-3.8.9-bin.zip",
+    "checksums": {
+      "SHA-512": "12e61ed2ea918410f1517aacf7959e9ee33fd033597d7b28367e98409481b939a8fd0be77d7f7cd48b94dc2f8e5bac8f861e7cf99723dd106e3216451d15165e"
+    }
+  },
+  {
+    "version": "3.6.3",
+    "url": "https://dlcdn.apache.org/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.zip",
+    "checksums": {
+      "SHA-512": "1c095ed556eda06c6d82fdf52200bc4f3437a1bab42387e801d6f4c56e833fb82b16e8bf0aab95c9708de7bfb55ec27f653a7cf0f491acebc541af234eded94d"
+    }
+  },
+  {
+    "version": "3.5.4",
+    "url": "https://dlcdn.apache.org/maven/maven-3/3.5.4/binaries/apache-maven-3.5.4-bin.zip",
+    "checksums": {
+      "SHA-512": "4d2763e1b73dfcde5c955f586bd754443833f63e20dd9ce4ce4405a2010bfc48324aa3b6bd5b6ac71a614112734b0bc652aa2ac05f492ed28a66de8116c3ef6e"
+    }
+  }
+]
