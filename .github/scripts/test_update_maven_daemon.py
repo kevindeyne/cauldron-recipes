@@ -1,7 +1,7 @@
-"""Unit tests for update_daemon.py — all HTTP calls are mocked."""
+"""Unit tests for update_maven_daemon.py — all HTTP calls are mocked."""
 
 import pytest
-from update_daemon import _parse_versions, build_entry, run
+from update_maven_daemon import _parse_versions, build_entry, run
 
 # ---------------------------------------------------------------------------
 # Constants
