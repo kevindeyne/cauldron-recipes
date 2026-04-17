@@ -3,7 +3,7 @@ Fetches all Apache Maven releases from the endoflife.date API,
 derives the source ZIP download URL and SHA-512 checksum from the
 official Apache CDN, and writes the result.
 
-Output: java/maven.json
+Output: maven/maven.json
 
 Tag format: maven-3.9.14 -> version 3.9.14, major 3
 CDN pattern:
@@ -16,7 +16,7 @@ import re
 import urllib.request
 
 EOL_API = "https://endoflife.date/api/v1/products/maven"
-OUTPUT = pathlib.Path("java/maven.json")
+OUTPUT = pathlib.Path("maven/maven.json")
 
 CDN_BASE = "https://dlcdn.apache.org/maven/maven-{major}/{version}/source/apache-maven-{version}-src.zip"
 
@@ -70,9 +70,9 @@ def run(fetcher=fetch) -> list:
 
     result = []
     for r in releases:
-        if not r.get("name"):
+        if not r.get("name") or not r.get("latest", {}).get("name"):
             continue
-        entry = build_entry(r["name"], fetcher)
+        entry = build_entry(r["latest"]["name"], fetcher)
         if entry.get("checksums"):
             result.append(entry)
 

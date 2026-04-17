@@ -12,9 +12,9 @@ FAKE_SHA512 = "a" * 128
 FAKE_EOL_RESPONSE = json.dumps({
     "result": {
         "releases": [
-            {"name": "3.9.14"},
-            {"name": "3.8.9"},
-            {"name": "4.0.0"},
+            {"name": "3.9", "latest": {"name": "3.9.14"}},
+            {"name": "3.8", "latest": {"name": "3.8.9"}},
+            {"name": "4.0", "latest": {"name": "4.0.0"}},
         ]
     }
 })
@@ -108,7 +108,11 @@ class TestRun:
             assert entry["checksums"]["SHA-512"] == FAKE_SHA512
 
     def test_skips_entries_without_name(self):
-        eol = json.dumps({"result": {"releases": [{}]}})
+        eol = json.dumps({"result": {"releases": [
+            {},                           # missing name and latest
+            {"name": "3.9"},              # missing latest
+            {"name": "3.9", "latest": {}}, # missing latest.name
+        ]}})
         assert run(fetcher=lambda url: eol if "endoflife" in url else FAKE_SHA512) == []
 
     def test_skips_entries_with_failed_checksums(self):
