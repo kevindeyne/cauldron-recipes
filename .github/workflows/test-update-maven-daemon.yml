@@ -1,0 +1,24 @@
+name: Test Maven Update Script
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/scripts/update_maven_daemon.py'
+  pull_request:
+    paths:
+      - '.github/scripts/update_maven_daemon.py'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6.0.2
+      - name: Setup Python
+        uses: actions/setup-python@v6.2.0
+      - name: Install pytest
+        run: pip install pytest
+      - name: Run unit tests
+        run: python3 -m pytest .github/scripts/test_update_maven_daemon.py -v
