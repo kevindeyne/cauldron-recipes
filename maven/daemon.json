@@ -1,0 +1,37 @@
+[
+  {
+    "version": "1.0.2",
+    "url": "https://downloads.apache.org/maven/mvnd/1.0.2/maven-mvnd-1.0.2-windows-amd64.zip",
+    "checksums": {
+      "SHA-512": "1fd05b45b7d2d6f962c0b3519eb8f5749f9c9dee60d1b80feeb02629c11201bfc43eb64273955a618090882f7c5456e662eef792f0f22805c0f72dfec1db4b1a"
+    }
+  },
+  {
+    "version": "1.0.3",
+    "url": "https://downloads.apache.org/maven/mvnd/1.0.3/maven-mvnd-1.0.3-windows-amd64.zip",
+    "checksums": {
+      "SHA-512": "56d8429a102fdcc4aaf0c3bb8f62a8864b939dda374a87555d6954f225ed921435cc1a4c15184d80d31987d29212a5d4f51be1ec62b7cd43756ecf2ffe4a28f2"
+    }
+  },
+  {
+    "version": "1.0.4",
+    "url": "https://downloads.apache.org/maven/mvnd/1.0.4/maven-mvnd-1.0.4-windows-amd64.zip",
+    "checksums": {
+      "SHA-512": "29387379a13562061c65b3ae335de8b85a058595c4c788fc036a7ff7640d8748562b1f9c146a49cdc9d1a5e81b6731b960b9071ffadc90cea3ec3d186388826b"
+    }
+  },
+  {
+    "version": "1.0.5",
+    "url": "https://downloads.apache.org/maven/mvnd/1.0.5/maven-mvnd-1.0.5-windows-amd64.zip",
+    "checksums": {
+      "SHA-512": "c754282c75f4188884451fdd31222e7c49f594701488f7b1d9a56c461d6bbdfd31116376333391b8ba25a4bc4c5a36a25e3dd1d1553c0ae48f6c8d1a037d896c"
+    }
+  },
+  {
+    "version": "2.0.0-rc-3",
+    "url": "https://downloads.apache.org/maven/mvnd/2.0.0-rc-3/maven-mvnd-2.0.0-rc-3-windows-amd64.zip",
+    "checksums": {
+      "SHA-512": "bb934f27f655561b629d9f1ecd5d02dd29ce28e585705091ed9a950b776dc0986bfe28802f39ac9604112e89a0b88b671cbb15b814bfb847a9c8a2092a344c4a"
+    }
+  }
+]
