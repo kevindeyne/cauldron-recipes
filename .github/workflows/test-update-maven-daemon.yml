@@ -1,4 +1,4 @@
-name: Test Maven Update Script
+name: Test Maven Daemon Update Script
 
 on:
   workflow_dispatch:

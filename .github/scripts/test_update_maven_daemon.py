@@ -1,7 +1,7 @@
-"""Unit tests for update_mvnd.py — all HTTP calls are mocked."""
+"""Unit tests for update_daemon.py — all HTTP calls are mocked."""
 
 import pytest
-from update_mvnd import _parse_versions, build_entry, run
+from update_daemon import _parse_versions, build_entry, run
 
 # ---------------------------------------------------------------------------
 # Constants
@@ -12,7 +12,7 @@ FAKE_SHA512 = "b" * 128
 FAKE_INDEX_HTML = """
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
 <html>
- <head><title>Index of /maven/mvnd</title></head>
+ <head><title>Index of /maven/daemon</title></head>
  <body>
 <pre>      <a href="?C=N;O=D">Name</a>         <a href="?C=M;O=A">Last modified</a>      <a href="?C=S;O=A">Size</a>
 <hr>
