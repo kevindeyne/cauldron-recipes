@@ -1,4 +1,5 @@
 {
   "home_var": "MAVEN_HOME",
-  "bin_subdir": "bin"
+  "bin_subdir": "bin",
+  "default_vendor": "maven"
 }
