@@ -21,13 +21,6 @@
     }
   },
   {
-    "version": "21",
-    "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.10%2B7/OpenJDK21U-jdk_x64_windows_hotspot_21.0.10_7.zip",
-    "checksums": {
-      "SHA-256": "08cae782814f027f8b159d6b68823f0f87422eb475c1a0ea1abc7a4357aaf11f"
-    }
-  },
-  {
     "version": "20",
     "url": "https://github.com/adoptium/temurin20-binaries/releases/download/jdk-20.0.2%2B9/OpenJDK20U-jdk_x64_windows_hotspot_20.0.2_9.zip",
     "checksums": {
