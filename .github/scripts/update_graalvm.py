@@ -94,7 +94,7 @@ def run(fetcher=fetch) -> list:
 
     result = []
     # Sort by major version for consistent output order
-    for major in sorted(versions_map.keys(), key=int):
+    for major in sorted(versions_map.keys(), key=int, reverse=True):
         release = versions_map[major]
         entry = build_entry(major, release, fetcher)
         if entry:
