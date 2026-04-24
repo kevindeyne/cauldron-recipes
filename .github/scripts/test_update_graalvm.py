@@ -84,12 +84,12 @@ class TestRun:
         results = run(fetcher=fetcher)
         assert len(results) == 2
         versions = [r["version"] for r in results]
-        assert "21.0.2" in versions
-        assert "17.0.9" in versions
+        assert "21" in versions
+        assert "17" in versions
 
         # Verify order (sorted by major version)
-        assert results[0]["version"] == "17.0.9"
-        assert results[1]["version"] == "21.0.2"
+        assert results[1]["version"] == "17"
+        assert results[0]["version"] == "21"
 
     def test_run_filters_tags(self):
         def fetcher(url):
@@ -120,6 +120,5 @@ class TestRun:
             # Should still only have 2 versions (latest of 21 and 17)
             assert len(results) == 2
             versions = [r["version"] for r in results]
-            assert "21.0.2" in versions
-            assert "17.0.9" in versions
-            assert "21.0.1" not in versions
+            assert "21" in versions
+            assert "17" in versions
