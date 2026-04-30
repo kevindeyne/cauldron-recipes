@@ -1,5 +1,12 @@
 [
   {
+    "version": "25",
+    "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-jdk_x64_windows_hotspot_25.0.3_9.zip",
+    "checksums": {
+      "SHA-256": "709312cd0420296d9b9de917fe6e28a5b979e875ee5ab91783fb79bcd5857235"
+    }
+  },
+  {
     "version": "24",
     "url": "https://github.com/adoptium/temurin24-binaries/releases/download/jdk-24.0.2%2B12/OpenJDK24U-jdk_x64_windows_hotspot_24.0.2_12.zip",
     "checksums": {
@@ -53,13 +60,6 @@
     "url": "https://github.com/adoptium/temurin16-binaries/releases/download/jdk-16.0.2%2B7/OpenJDK16U-jdk_x64_windows_hotspot_16.0.2_7.zip",
     "checksums": {
       "SHA-256": "40191ffbafd8a6f9559352d8de31e8d22a56822fb41bbcf45f34e3fd3afa5f9e"
-    }
-  },
-  {
-    "version": "8",
-    "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u482-b08/OpenJDK8U-jdk_x64_windows_hotspot_8u482b08.zip",
-    "checksums": {
-      "SHA-256": "51637ae41af1bce379a9d059109820864949c8d57ca302e0d502fcf329d33a72"
     }
   }
 ]
