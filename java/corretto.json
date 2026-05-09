@@ -91,8 +91,8 @@
     "version": "8",
     "url": "https://corretto.aws/downloads/latest/amazon-corretto-8-x64-windows-jdk.zip",
     "checksums": {
-      "MD5": "81d01b1471bf76e34ac4cafede924104",
-      "SHA-256": "c73109bd194b7c94041d984a98fded4be0c9aee75473c90a0e3b77f606d9b9b2"
+      "MD5": "30d15c64bd339ff692020b8bfb2a5b42",
+      "SHA-256": "eccce8d939f1abb9570812b09360a83eb4d0ec937e5bd2a78be158d8e6aeec2d"
     }
   }
 ]
