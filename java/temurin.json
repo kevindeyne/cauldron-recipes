@@ -68,5 +68,12 @@
     "checksums": {
       "SHA-256": "40191ffbafd8a6f9559352d8de31e8d22a56822fb41bbcf45f34e3fd3afa5f9e"
     }
+  },
+  {
+    "version": "8",
+    "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u492-b09/OpenJDK8U-jdk_x64_windows_hotspot_8u492b09.zip",
+    "checksums": {
+      "SHA-256": "1e33881ea6bfc1c532e3eaad1c1de7777169c0c1333e2b880621e0e0a16073b2"
+    }
   }
 ]
