@@ -28,6 +28,13 @@
     }
   },
   {
+    "version": "1.0.6",
+    "url": "https://downloads.apache.org/maven/mvnd/1.0.6/maven-mvnd-1.0.6-windows-amd64.zip",
+    "checksums": {
+      "SHA-512": "4dd97b1f26525055cec960fb5b953b70d1e6606f96f5b096efa932754fd3e9d0238e00ca97779368f29cb751f1776445c45da618ea8d0d84692c3b936087309f"
+    }
+  },
+  {
     "version": "2.0.0-rc-3",
     "url": "https://downloads.apache.org/maven/mvnd/2.0.0-rc-3/maven-mvnd-2.0.0-rc-3-windows-amd64.zip",
     "checksums": {
