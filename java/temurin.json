@@ -1,5 +1,12 @@
 [
   {
+    "version": "26",
+    "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-jdk_x64_windows_hotspot_26.0.1_8.zip",
+    "checksums": {
+      "SHA-256": "81b35819085dd73a204c3219464c5f154cb111a526ec63dad793c0eefd469b3d"
+    }
+  },
+  {
     "version": "25",
     "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-jdk_x64_windows_hotspot_25.0.3_9.zip",
     "checksums": {
