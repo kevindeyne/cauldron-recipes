@@ -71,9 +71,9 @@
   },
   {
     "version": "8",
-    "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u492-b09/OpenJDK8U-jdk_x64_windows_hotspot_8u492b09.zip",
+    "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u502-b07/OpenJDK8U-jdk_x64_windows_hotspot_8u502b07.zip",
     "checksums": {
-      "SHA-256": "1e33881ea6bfc1c532e3eaad1c1de7777169c0c1333e2b880621e0e0a16073b2"
+      "SHA-256": "3f193fe5e36409c564eb3b7668cb33cab96aa5879d9b284f25f8653e993b1c49"
     }
   }
 ]
