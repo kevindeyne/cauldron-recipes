@@ -1,5 +1,13 @@
 [
   {
+    "version": "27",
+    "url": "https://corretto.aws/downloads/latest/amazon-corretto-27-x64-windows-jdk.zip",
+    "checksums": {
+      "MD5": "a42c7e1ad490df54d21e6a4ce422a06a",
+      "SHA-256": "4e98f43724a6bd7c20552eb124b68cf0bd69aedc06b7616fe5b050dd3f5fe689"
+    }
+  },
+  {
     "version": "26",
     "url": "https://corretto.aws/downloads/latest/amazon-corretto-26-x64-windows-jdk.zip",
     "checksums": {
