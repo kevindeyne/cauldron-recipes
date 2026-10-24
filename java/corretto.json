@@ -1,10 +1,26 @@
 [
   {
+    "version": "27",
+    "url": "https://corretto.aws/downloads/latest/amazon-corretto-27-x64-windows-jdk.zip",
+    "checksums": {
+      "MD5": "001f26caa633ed6927b1d41a63ae8931",
+      "SHA-256": "e39d31e11fe31932e55d4bba28486fb10c208b2f297766d4fc78364d9e58b47a"
+    }
+  },
+  {
     "version": "26",
     "url": "https://corretto.aws/downloads/latest/amazon-corretto-26-x64-windows-jdk.zip",
     "checksums": {
       "MD5": "5f0c4ed065525f5c7934271faf9a0810",
       "SHA-256": "06856f7aae1ae2f8b0c7c9eaac4ffa7e58e1bf8c5d3067791c0da93656fe4f7c"
+    }
+  },
+  {
+    "version": "25",
+    "url": "https://corretto.aws/downloads/latest/amazon-corretto-25-x64-windows-jdk.zip",
+    "checksums": {
+      "MD5": "5f40379bfa6fc7a376023e340858a8aa",
+      "SHA-256": "7299aa41c2c44e5764c08fe4d92c655f114cd1c1cfe3ff299181f34b65c7c58c"
     }
   },
   {
@@ -32,6 +48,14 @@
     }
   },
   {
+    "version": "21",
+    "url": "https://corretto.aws/downloads/latest/amazon-corretto-21-x64-windows-jdk.zip",
+    "checksums": {
+      "MD5": "a73908091ac0cf1f5ee2af0bd9e92bd9",
+      "SHA-256": "abd264a79e07c64e19aaa705e5b8ea8db01d5213877b8ac0b855a94541a4b0fd"
+    }
+  },
+  {
     "version": "20",
     "url": "https://corretto.aws/downloads/latest/amazon-corretto-20-x64-windows-jdk.zip",
     "checksums": {
@@ -53,6 +77,30 @@
     "checksums": {
       "MD5": "8f0b98a63b5bb772897729237ca75f70",
       "SHA-256": "dab8b4fb8beddf6b714f4cfb1dc5aa81a10ba297e5fcab2777702d4ce01bd36d"
+    }
+  },
+  {
+    "version": "17",
+    "url": "https://corretto.aws/downloads/latest/amazon-corretto-17-x64-windows-jdk.zip",
+    "checksums": {
+      "MD5": "418425bbc843288a6357993f3459daf2",
+      "SHA-256": "8681393133cde8d2fd0d52ccae48e8096b6eed11fc119eaf9cf1c84721311322"
+    }
+  },
+  {
+    "version": "11",
+    "url": "https://corretto.aws/downloads/latest/amazon-corretto-11-x64-windows-jdk.zip",
+    "checksums": {
+      "MD5": "d05f982d66369c0e4f864b2803cfca96",
+      "SHA-256": "db7260b207d0ed7a1c59024b21857cfaf32796050a197799f574cab877c59815"
+    }
+  },
+  {
+    "version": "8",
+    "url": "https://corretto.aws/downloads/latest/amazon-corretto-8-x64-windows-jdk.zip",
+    "checksums": {
+      "MD5": "3fdc4999cd4302bfd10c30f8613d2db4",
+      "SHA-256": "2c13b99a717f8d91bedd196afe0fb1cb36c1b6b8061de2a109791cf0c48d13e9"
     }
   }
 ]
